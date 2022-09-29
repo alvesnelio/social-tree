@@ -1,0 +1,26 @@
+{
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+  },
+  "[html]": {
+    "editor.defaultFormatter": "Glavin001.unibeautify-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "Glavin001.unibeautify-vscode"
+  },
+  "conventionalCommits.scopes": [
+  ],
+  "Scss2css.output": "expanded",
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.colorDecorators": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.cursorBlinking": "smooth", // "blink", "smooth", "phase", "expand", "solid"
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "block", // "line", "block", "underline", "line-thin", "block-outline", "underline-thin"
+  "editor.codeLens": true,
+  "editor.links": true,
+  "editor.minimap.scale": 2,
+}
