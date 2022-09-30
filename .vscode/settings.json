@@ -9,6 +9,7 @@
     "editor.defaultFormatter": "Glavin001.unibeautify-vscode"
   },
   "conventionalCommits.scopes": [
+    "Inicialização"
   ],
   "Scss2css.output": "expanded",
   "editor.guides.bracketPairsHorizontal": true,
