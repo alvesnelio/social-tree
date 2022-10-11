@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Brincando com teste\" && exit 1",
+    "scssToCss": "echo \"Executando a conversão do scss para css\" && node scssToCss.js && exit 1"
   },
   "author": "Nélio Souza Alves",
   "license": "MIT",
@@ -13,5 +14,8 @@
     "bootstrap": "^5.2.2",
     "ejs": "^3.1.8",
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
   }
 }

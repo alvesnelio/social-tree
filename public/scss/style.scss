@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins Light';
+  src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+
+@import 'variaveis';
+
+body{
+  background-color: $body-bg-color;
+}
+
+.font-poppins-regular {
+  font-family: $font-poppins-regular;
+}
+
+.font-poppins-light {
+  font-family: 'Poppins Light', sans-serif;
+  
+  .font{
+    font-size: 15px;
+  }
+}
