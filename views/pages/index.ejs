@@ -1,79 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Social Tree - Nélio Souza Alves</title>
-  </head>
-
   <body class="">
-    <div class="container h-100vh">
-      <div class="row h-100vh justify-content-center">
-        <div class="col-12 col-xl-3 col-md-5 d-flex align-items-center">
-          <div class="col-front-social-tree mx-auto text-center">
-            <section class="col-front-img">
-              <a class="d-block mb-3" href="">
-                <img class="img-fluid border-4 rounded-circle mx-auto" src="/public/images/perfil.jpeg" width="200" height="200" alt="Foto de perfil">
-              </a>
+    <%- include('partials/head') %>
 
-              <p class="instagram-text">
-                @instagram
-              </p>
-            </section>
+    <%- include('main') %>
 
-            <section class="col-front-list">
-              <ul class="list-group">
-                <li class="list-item">
-                  <a href="">link 1</a>
-                </li>
-                <li class="list-item">
-                  <a href="">link 2</a>
-                </li>
-                <li class="list-item">
-                  <a href="">link 3</a>
-                </li>
-                <li class="list-item">
-                  <a href="">link 4</a>
-                </li>
-              </ul>
-            </section>
-
-            <section class="col-front-redes-sociais">
-              <div class="list-redes-sociais">
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
-                  <span><img src="/public/assets/twitter.svg" alt="Twitter"></span>
-                </a>
-
-                <a href="https://www.twitch.com/" target="_blank" rel="noopener noreferrer">
-                  <span><img src="/public/assets/twitch.svg" alt="Twitch"></span>
-                </a>
-
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                  <span><img src="/public/assets/instagram.svg" alt="instagram"></span>
-                </a>
-
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-                  <span><img src="/public/assets/linkedin.svg" alt="Linkedin"></span>
-                </a>
-
-                <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
-                  <span><img src="/public/assets/github.svg" alt="Github"></span>
-                </a>
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap-grid.css">
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+    <%- include('partials/assets') %>
   </body>
-
 </html>
