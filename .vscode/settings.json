@@ -10,7 +10,8 @@
   },
   "conventionalCommits.scopes": [
     "Inicialização",
-    "Development"
+    "Development",
+    "Documentation"
   ],
   "Scss2css.output": "expanded",
   "editor.guides.bracketPairsHorizontal": true,
