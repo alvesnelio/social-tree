@@ -26,13 +26,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ![Shell Scripts](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-## 🖥️ Demonstração
-
+<!-- ## 🖥️ Demonstração
 ![](https://imgur.com/sBZooMS)   
-
 - Você pode acessar o projeto clicando <a href="https://fabricio-roca.github.io/beautysalon.web/">aqui</a>.
-
----
+--- -->
 
 ## 🧠 Créditos
 
@@ -58,10 +55,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [express](https://expressjs.com/pt-br/)
 - [sass](https://sass-lang.com/)
 
-<!-- ### 📝 Utilitários
-
+<!-- 
+### 📝 Utilitários
 - [randomuser.me](https://randomuser.me/photos)
-- [IconMoon](https://icomoon.io/app/#/select) -->
+- [IconMoon](https://icomoon.io/app/#/select)
+- -->
 
 ---
 
