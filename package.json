@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Brincando com teste\" && exit 1",
+    "build": "echo \" Instalando projeto e levantanod o mesmo \" && make build",
     "scssToCss": "echo \"Executando a conversão do scss para css\" && node scssToCss.js"
   },
   "author": "Nélio Souza Alves",
