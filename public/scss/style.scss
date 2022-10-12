@@ -18,10 +18,84 @@ body{
   font-family: $font-poppins-regular;
 }
 
-.font-poppins-light {
-  font-family: 'Poppins Light', sans-serif;
-  
-  .font{
-    font-size: 15px;
+.h-100vh{
+  height: 100vh;
+}
+
+.col-front-social-tree{
+
+  .col-front-img{
+    a {
+      border: 2px solid $purple;
+      border-radius: 100%;
+      max-width: 200px;
+      margin: auto;
+
+      img{
+        border: 5px solid white;
+      }
+    }
+
+    .instagram-text {
+      font-family: $font-poppins-light;
+      font-size: 16px;
+      color: $purple;
+    }
+  }
+
+  .col-front-list{
+    ul{
+      list-style-type: none;
+
+      li{
+        margin-bottom: 10px;
+        a{
+          text-decoration: none;
+          color: $purple;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          display: block;
+          font-size: 16px;
+          font-family: $font-poppins-regular;
+
+          border: 2px solid $purple;
+          border-radius: 5px;
+
+          &:hover{
+            color: white;
+            background-color: $purple;
+          }
+        }
+      }
+    }
+  }
+
+  .col-front-redes-sociais{
+    margin-top: 10%;
+
+    .list-redes-sociais{
+      a{
+        text-decoration: none;
+
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+
+        border-radius: 100%;
+        border: 2px solid transparent;
+
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover{
+          border-color: $purple;
+        }
+      }
+
+      &:last-child{
+        margin-right: 0;
+      }
+    }
   }
 }

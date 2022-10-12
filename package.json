@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Brincando com teste\" && exit 1",
-    "scssToCss": "echo \"Executando a conversão do scss para css\" && node scssToCss.js && exit 1"
+    "scssToCss": "echo \"Executando a conversão do scss para css\" && node scssToCss.js"
   },
   "author": "Nélio Souza Alves",
   "license": "MIT",

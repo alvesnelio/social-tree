@@ -1,1 +1,75 @@
-@font-face{font-family:"Poppins";src:url(../fonts/poppins/Poppins-Regular.ttf)}@font-face{font-family:"Poppins Light";src:url(../fonts/poppins/Poppins-Light.ttf)}body{background-color:#faf7fd}.font-poppins-regular{font-family:"Poppins",sans-serif}.font-poppins-light{font-family:"Poppins Light",sans-serif}.font-poppins-light .font{font-size:15px}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins Light";
+  src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+body {
+  background-color: white;
+}
+
+.font-poppins-regular {
+  font-family: "Poppins", sans-serif;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.col-front-social-tree .col-front-img a {
+  border: 2px solid #BB99DD;
+  border-radius: 100%;
+  max-width: 200px;
+  margin: auto;
+}
+.col-front-social-tree .col-front-img a img {
+  border: 5px solid white;
+}
+.col-front-social-tree .col-front-img .instagram-text {
+  font-family: "Poppins Light", sans-serif;
+  font-size: 16px;
+  color: #BB99DD;
+}
+.col-front-social-tree .col-front-list ul {
+  list-style-type: none;
+}
+.col-front-social-tree .col-front-list ul li {
+  margin-bottom: 10px;
+}
+.col-front-social-tree .col-front-list ul li a {
+  text-decoration: none;
+  color: #BB99DD;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #BB99DD;
+  border-radius: 5px;
+}
+.col-front-social-tree .col-front-list ul li a:hover {
+  color: white;
+  background-color: #BB99DD;
+}
+.col-front-social-tree .col-front-redes-sociais {
+  margin-top: 10%;
+}
+.col-front-social-tree .col-front-redes-sociais .list-redes-sociais a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-front-social-tree .col-front-redes-sociais .list-redes-sociais a:hover {
+  border-color: #BB99DD;
+}
+.col-front-social-tree .col-front-redes-sociais .list-redes-sociais:last-child {
+  margin-right: 0;
+}
